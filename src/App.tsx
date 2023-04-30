@@ -11,26 +11,36 @@ function App() {
      </div>
      <p>@EyzRyder</p>
      <div className="links">
-       <a href="">LINK 1</a>
-       <a href="">LINK 2</a>
-       <a href="">LINK 3</a>
-       <a href="">LINK 4</a>
+       <a href="https://bessiportfolio.vercel.app">Portfolio</a>
+       <a href="https://eyzryder.github.io/">old portfolio</a>
+       <a href="https://app.rocketseat.com.br/me/gabriel-de-morais-bessi-04850">Rocketseat</a>
+       <a href="https://stackblitz.com/@EyzRyder">StackBlitz</a>
      </div>
      <div className="icons">
-       <button>
-       <FiTwitter/>
+       <button disabled>
+         <a href="#">
+       <FiTwitter size={24}/>
+         </a>
+       </button>
+       <button disabled>
+         <a href="#">
+       <FiTwitch size={24}/>
+         </a>
        </button>
        <button>
-       <FiTwitch/>
+         <a href="https://www.instagram.com/eyz_ryder/">
+       <BsInstagram size={24}/>
+         </a>
        </button>
        <button>
-       <BsInstagram/>
+         <a href="https://www.linkedin.com/in/gabriel-bessi-5b0160230/">
+       <SlSocialLinkedin size={24}/>
+         </a>
        </button>
        <button>
-       <SlSocialLinkedin/>
-       </button>
-       <button>
-       <FiGithub/>
+         <a href="https://github.com/EyzRyder">
+       <FiGithub size={24}/>
+         </a>
        </button>
      </div>
     </main>
